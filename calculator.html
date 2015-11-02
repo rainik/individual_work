@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Individual work, Calculator</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   </head>   
+	<body>
+		  <header>
+			  <object type="image/png" data="webLogo.png" height="100">
+					<param name="quality" value="high" />
+					<param name="scale" value="showall" />   
+			  <embed src="webLogo.png" quality="high" height="100" scale="showall" />
+			  </object>
+				<h1 id="#top">Основы Web-технологий </h1>
+			<nav>
+			  <ul>
+				<li><a href="index.html">Главная</a><br />
+				<li><a href="web-technologies.html">WEB-технологии</a><br />			
+					<ul>
+					<li><a href="html5page.html">HTML</a></li>
+					<li><a href="csspage.html">CSS</a></li>
+					<li><a href="jspage.html">JavaScript</a></li>
+					</ul>
+				</li>
+				<li><a href="calculator.html">Калькулятор</a></li>
+				<li><a href="test.html">Тест</a><br />
+			  </ul>
+			</nav>
+		  </header>
+			<div>
+			<table border="1">
+			    <tr>
+					<td colspan="5"><input type="text" name="calcresult" placeholder="результат вычислений" /></td>
+				</tr>
+				<tr>
+					<td><input type="button" name="seven" onclick="callFunction()" value="7" /> </td>
+					<td><input type="button" name="eight" onclick="callFunction()" value="8" /> </td>
+					<td><input type="button" name="nine" onclick="callFunction()" value="9" /> </td>
+					<td><input type="button" name="divide" onclick="callFunction()" value="/" /> </td>
+					<td><input type="button" name="clear" onclick="callFunction()" value="C" /> </td>				
+				</tr> 
+				<tr>
+					<td><input type="button" name="four" onclick="callFunction()" value="4" /></td>
+					<td><input type="button" name="five" onclick="callFunction()" value="5" /></td>
+					<td><input type="button" name="six" onclick="callFunction()" value="6" /></td>
+					<td><input type="button" name="mult" onclick="callFunction()" value="*" /></td>
+					<td><input type="button" name="plusm" onclick="callFunction()" value="&plusmn;" /></td>			
+				</tr> 
+				<tr>
+					<td><input type="button" name="one" onclick="callFunction()" value="1" /></td>
+					<td><input type="button" name="two" onclick="callFunction()" value="2" /></td>
+					<td><input type="button" name="three" onclick="callFunction()" value="3" /></td>
+					<td><input type="button" name="minus" onclick="callFunction()" value="-" /></td>
+					<td rowspan="2"><input type="button" name="equal" onclick="callFunction()" value="=" /></td>
+				</tr> 
+				<tr>
+					<td colspan="2"><input type="button" name="zero" onclick="callFunction()" value="0" /></td>
+					<td><input type="button" name="point" onclick="callFunction()" value="." /></td>
+					<td><input type="button" name="plus" onclick="callFunction()" value="+" /></td>		
+				</tr>								
+			</table>
+			</div>
+			<br />
+		  <footer>
+			<address>
+			  <a href="mailto:rain@it.kh.ua">Пишите: mail@author</a><br />
+			  <em><b>&copy; Matyushchenko Sergey, 2015</b></em>
+			</address>
+		  </footer>	   	      
+	</body>
+</html>
